@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-[#1A237E]  overflow-hidden">
+   
+
+    <div class="   flex items-center justify-center">
+       
+            <div class="main bg-[#D3D3D3] h-[800px] w-1/2 flex flex-col items-center">
+                <h1 class=" text-4xl text-black font-bold pb-8">Number Guessing Game</h1>
+                        <h1 class=" text-2xl text-black">Try and Guess a number Between 1 to 100.</h1>
+                        <h1 class="text-2xl text-black">You have 10 attempts to guess the right number.</h1>
+                        <h1 class=" text-6xl text-black pt-16">Guess a Number</h1><br><br>
+                    <form>
+                     <input type="text" id="guessFeild" class="guessFeild h-11 w-[300px] rounded-lg text-xl pl-32"><br><br>
+                     <button type="text" id="submit" class="guesssubmit h-11 w-[300px] rounded-lg bg-black text-white text-center ">Submit Guess</button>
+                    </form>
+
+                    <div class="results">
+                        <p class=" text-2xl text-black pt-36">Previous Guess: <span class="guesses"></span></p>
+                        <p class=" text-2xl text-black">Guesses Remaining : <span class="lastresult">10</span></p>
+                        <p class="lowOrHi"></p>
+                    </div>
+            </div>
+
+            
+    </div>
+   
+   
+
+   <script src="main.js"></script> 
+</body>
+</html>
